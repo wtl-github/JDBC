@@ -8,7 +8,6 @@ public class Main {
 	public static void main(String[] args) {
 		SqlHelp sqlHelp = new SqlHelp();
 		try {
-			
 			String start = "2017-11-18";
 			String end = "2018-12-31";
 			String sqlLength = "SELECT TIMESTAMPDIFF(DAY,'"+start+"','"+end+"') AS 'length' ";
